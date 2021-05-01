@@ -16,13 +16,16 @@
             <div id="deviceready" class="blink">
                 <p class="event listening">실행 테스트!</p>
                 <p class="event received">왜 안돼냐</p>
-                <!-- <button onload="scan()">눌러바</button> -->
+                <button id="startScanBtn">StartScan</button>
+                <button id="stopScanBtn">StopScan</button>
             </div>
         </div>
-        <script src="cordova.js"></script>
-        <script src="js/index.js">
-            app.initialize
-        </script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <!-- <script src="js/index.js"> -->
+        <script type="text/javascript" src="dist/js/bundle.js"></script>
+        <!-- <script type="text/javascript">
+            app.initialize();
+        </script> -->
 
     </body>
 </html>
